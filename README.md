@@ -43,22 +43,6 @@ Welcome to the repository for our full stack eCommerce website built using the P
 - **Terms and Conditions:** Detailed terms and conditions.
 - **Refund and Cancellation Policy:** Policies on refunds and cancellations.
 
-## Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/HarmanPreet-Singh-XYT/E-Commerce.git
-2. Navigate to the project directory:
-   ```sh
-   cd ecommerce-website
-3. Install dependencies for the server:
-   ```sh
-   cd Server & npm install
-4. Install dependencies for the client:
-   ```sh
-   cd ../Client & npm install
-5. Set up environment variables in a .env file for both server and client.
-
 ## Running the Application (Development)
 
 1. Start the Server:
@@ -101,13 +85,6 @@ Welcome to the repository for our full stack eCommerce website built using the P
 **or**
 **Simply remove PostgreSQL service from the following docker-compose.yml file if you have your own PostgreSQL server running.**
 ## Available Docker Images
-**There are two Following images available on Docker hub for Client and Server**
-1. Client Image:
-   ```sh
-   docker pull harmanpreet27/ecommerce-client
-2. Server Image:
-   ```sh
-   docker pull harmanpreet27/ecommerce-backend
 ## Contributing
 
 **We welcome contributions! Please fork the repository and submit a pull request.**
@@ -115,10 +92,6 @@ Welcome to the repository for our full stack eCommerce website built using the P
 ## License
 
 **This project is licensed under the MIT License. See the LICENSE file for more details.**
-
-## Contact
-
-**For any questions or feedback, please contact us at harmanpreetsingh@programmer.net**
 
 ## Environment Variables (Required before Starting)
 
